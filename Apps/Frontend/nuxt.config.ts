@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     }
   },
   site: {
-    url: 'http://localhost:3000',
+    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://example.com',
     name: 'Blueprint Project'
   }
 })

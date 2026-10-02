@@ -54,7 +54,19 @@ corepack enable
 pnpm install
 ```
 
-### 2. Entwicklungs-Server starten
+Richte anschließend das Python 3.13-Backend-Environment ein:
+```bash
+pnpm setup:backend
+```
+*(Alternativ manuell: `cd Apps/Backend && uv venv .venv && uv pip install -r requirements.txt`)*
+
+### 2. Umgebungsvariablen konfigurieren
+Kopiere die Vorlage in `Apps/Backend/.env.example` nach `Apps/Backend/.env` und trage deinen `GEMINI_API_KEY` ein:
+```bash
+cp Apps/Backend/.env.example Apps/Backend/.env
+```
+
+### 3. Entwicklungs-Server starten
 Starte sowohl das Frontend (Port `3000`) als auch das Backend (Port `8000`) parallel über das globale Steuerungsskript:
 ```bash
 pnpm dev

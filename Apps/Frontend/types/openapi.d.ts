@@ -1,3 +1,4 @@
+/* eslint-disable */
 export interface paths {
   "/agent/run": {
     post: {

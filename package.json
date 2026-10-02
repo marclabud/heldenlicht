@@ -9,10 +9,11 @@
   },
   "scripts": {
     "dev": "pnpm -r dev",
-    "build": "pnpm -r build",
-    "lint": "pnpm -r lint",
-    "test": "pnpm -r test",
+    "build": "pnpm -r --if-present build",
+    "lint": "pnpm -r --if-present lint",
+    "test": "pnpm -r --if-present test",
     "typecheck": "pnpm --filter frontend typecheck",
-    "clean": "pnpm -r clean"
+    "clean": "pnpm -r --if-present clean",
+    "setup:backend": "uv venv --allow-existing Apps/Backend/.venv && uv pip install -r Apps/Backend/requirements.txt --python Apps/Backend/.venv/bin/python"
   }
 }

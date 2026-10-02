@@ -3,6 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "python3 main.py"
+    "dev": "sh -c 'if [ -f .venv/bin/python ]; then .venv/bin/python main.py; else python3 main.py; fi'",
+    "build": "echo 'No build required for backend'",
+    "lint": "echo 'No lint configured for backend'",
+    "test": "echo 'No tests configured for backend'",
+    "clean": "rm -rf __pycache__ .pytest_cache"
   }
 }
