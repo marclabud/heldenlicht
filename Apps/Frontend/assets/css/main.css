@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  /* Warm Premium off-white sand concept */
+  --color-primary: #D84C3F;      /* Terrakotta / Soft Red */
+  --color-secondary: #6BA368;    /* Soft Green */
+  --color-accent: #F4A261;       /* Warm Orange */
+  --color-orange: #F4A261;       /* Warm Orange alias */
+  --color-background: #F7F5F2;   /* Warm off-white sand background */
+  --color-surface: #FFFFFF;      /* Card background */
+  --color-text: #1F1F1F;         /* Main text color */
+  --color-muted: #666666;        /* Muted / Secondary text */
+  --color-border: #EBE8E2;       /* Warm subtle borders */
+  --color-white: #FFFFFF;
+
+  /* Typography */
+  --font-sans: "Inter", "Helvetica Neue", "Suisse Intl", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}

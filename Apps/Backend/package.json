@@ -1,0 +1,8 @@
+{
+  "name": "backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 main.py"
+  }
+}
