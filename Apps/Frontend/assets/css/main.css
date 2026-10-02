@@ -1,24 +1,70 @@
 @import "tailwindcss";
 
 @theme {
-  /* Warm Premium off-white sand concept */
-  --color-primary: #D84C3F;      /* Terrakotta / Soft Red */
-  --color-secondary: #6BA368;    /* Soft Green */
-  --color-accent: #F4A261;       /* Warm Orange */
-  --color-orange: #F4A261;       /* Warm Orange alias */
-  --color-background: #F7F5F2;   /* Warm off-white sand background */
-  --color-surface: #FFFFFF;      /* Card background */
-  --color-text: #1F1F1F;         /* Main text color */
-  --color-muted: #666666;        /* Muted / Secondary text */
-  --color-border: #EBE8E2;       /* Warm subtle borders */
-  --color-white: #FFFFFF;
+  --color-zinc-950: #09090b;
+  --color-zinc-900: #18181b;
+  --color-zinc-850: #1f1f23;
+  --color-zinc-800: #27272a;
+  --color-zinc-700: #3f3f46;
+  --color-zinc-600: #52525b;
+  --color-zinc-500: #71717a;
+  --color-zinc-400: #a1a1aa;
+  --color-zinc-300: #d4d4d8;
+  --color-zinc-200: #e4e4e7;
+  --color-zinc-100: #f4f4f5;
 
-  /* Typography */
-  --font-sans: "Inter", "Helvetica Neue", "Suisse Intl", sans-serif;
-  --font-mono: "JetBrains Mono", monospace;
+  --color-hero-amber: #f59e0b;
+  --color-hero-gold: #fbbf24;
+  --color-hero-cyan: #06b6d4;
+
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
 }
 
 body {
-  background-color: var(--color-background);
-  color: var(--color-text);
+  background-color: #09090b;
+  color: #f4f4f5;
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle glow effects for hero accents & badges */
+.hero-glow-gold {
+  box-shadow: 0 0 30px -5px rgba(245, 158, 11, 0.25);
+}
+
+.hero-glow-cyan {
+  box-shadow: 0 0 30px -5px rgba(6, 182, 212, 0.25);
+}
+
+.hero-text-glow {
+  text-shadow: 0 0 24px rgba(245, 158, 11, 0.35);
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
 }

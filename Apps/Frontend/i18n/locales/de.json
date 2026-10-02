@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "HELDENLICHT — HeroFest Fotografie & Cosplay",
+    "description": "Hochmoderne Dark-Mode Fotogalerie für Cosplay und Convention-Atmosphäre am HeroFest (Bernexpo)."
+  },
+  "header": {
+    "location": "HeroFest Bernexpo",
+    "locationDetail": "Bern, Schweiz",
+    "cdnStatus": "Cloudflare R2 Edge CDN",
+    "photosCount": "{count} Fotos",
+    "titlePart1": "HELDEN",
+    "titlePart2": "LICHT",
+    "subtitle": "HeroFest Fotografie & Cosplay",
+    "heroDescription": "High-Performance Galerie für episches Cosplay-Handwerk, Bühnenmomente und Convention-Atmosphäre an der Bernexpo.",
+    "searchPlaceholder": "Suche nach Cosplayer, Charakter, Bühne, Tag..."
+  },
+  "categories": {
+    "all": "Alle Fotos",
+    "cosplay": "Cosplay",
+    "stage": "Bühne & Shows",
+    "gaming": "Gaming & Esports",
+    "atmosphere": "Atmosphäre",
+    "portraits": "Porträts"
+  },
+  "gallery": {
+    "showingCount": "Zeige {filtered} von {total} Aufnahmen",
+    "matching": "passend zu „{query}“",
+    "resetFilters": "Filter zurücksetzen",
+    "noPhotosFound": "Keine Fotos gefunden",
+    "noPhotosDescription": "Keine Treffer für „{query}“ in dieser Kategorie. Passe deine Suche an oder setze die Filter zurück.",
+    "clearFilters": "Filter löschen",
+    "featured": "Empfohlen"
+  },
+  "lightbox": {
+    "counter": "{current} / {total}",
+    "fullRes": "Original",
+    "fullResTitle": "Originalauflösung in neuem Tab öffnen",
+    "close": "Schliessen (Esc)",
+    "prev": "Vorheriges Foto (Pfeil links)",
+    "next": "Nächstes Foto (Pfeil rechts)",
+    "photoBy": "Foto:",
+    "bernexpo": "Bernexpo"
+  },
+  "footer": {
+    "title": "HELDENLICHT",
+    "description": "Cosplay- und Convention-Fotografie-Portfolio für das HeroFest an der Bernexpo.",
+    "cloudflarePages": "Bereitgestellt auf Cloudflare Pages",
+    "cloudflareR2": "Assets über Cloudflare R2 ausgeliefert",
+    "copyright": "© {year} Heldenlicht • heldenlicht.ch"
+  },
+  "language": {
+    "toggleLabel": "Sprache wechseln",
+    "de": "DE",
+    "en": "EN"
+  }
+}

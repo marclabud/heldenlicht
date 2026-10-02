@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "HELDENLICHT — HeroFest Photography & Cosplay",
+    "description": "High-performance dark-mode photography portfolio and cosplay gallery tailored for HeroFest (Bernexpo)."
+  },
+  "header": {
+    "location": "HeroFest Bernexpo",
+    "locationDetail": "Bern, Switzerland",
+    "cdnStatus": "Cloudflare R2 Edge CDN",
+    "photosCount": "{count} Photos",
+    "titlePart1": "HELDEN",
+    "titlePart2": "LICHT",
+    "subtitle": "HeroFest Photography & Cosplay",
+    "heroDescription": "High-performance dark gallery capturing epic cosplay craftsmanship, stage moments, and convention atmosphere at Bernexpo.",
+    "searchPlaceholder": "Search cosplayer, character, stage, tag..."
+  },
+  "categories": {
+    "all": "All Photos",
+    "cosplay": "Cosplay",
+    "stage": "Stage & Shows",
+    "gaming": "Gaming & Esports",
+    "atmosphere": "Atmosphere",
+    "portraits": "Portraits"
+  },
+  "gallery": {
+    "showingCount": "Showing {filtered} of {total} captures",
+    "matching": "matching \"{query}\"",
+    "resetFilters": "Reset filters",
+    "noPhotosFound": "No photos found",
+    "noPhotosDescription": "No matches found for \"{query}\" in this category. Try adjusting your search query or reset filters.",
+    "clearFilters": "Clear filters",
+    "featured": "Featured"
+  },
+  "lightbox": {
+    "counter": "{current} / {total}",
+    "fullRes": "Full Res",
+    "fullResTitle": "Open full resolution in new tab",
+    "close": "Close modal (Esc)",
+    "prev": "Previous photo (Arrow Left)",
+    "next": "Next photo (Arrow Right)",
+    "photoBy": "Photo:",
+    "bernexpo": "Bernexpo"
+  },
+  "footer": {
+    "title": "HELDENLICHT",
+    "description": "Dedicated cosplay and convention photography portfolio for HeroFest at Bernexpo.",
+    "cloudflarePages": "Deployed on Cloudflare Pages",
+    "cloudflareR2": "Assets served via Cloudflare R2",
+    "copyright": "© {year} Heldenlicht • heldenlicht.ch"
+  },
+  "language": {
+    "toggleLabel": "Toggle language",
+    "de": "DE",
+    "en": "EN"
+  }
+}

@@ -80,6 +80,8 @@ web_modules/
 .output
 .nitro
 .cache
+dist
+
 
 # Python environment & artifacts
 .venv/
@@ -105,3 +107,8 @@ __pycache__/
 .env.test.local
 .env.production.local
 .env.*.local
+
+# Antigravity / Sandbox cache
+.config/
+.tmp-home/
+
